@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>QAM</title>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="lib/jquery-2.1.4.js"></script>
+    <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="lib/flot/excanvas.js"></script><![endif]-->
+    <script type="text/javascript" src="lib/flot/jquery.flot.js"></script>
+    <script type="text/javascript" src="js/qam.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="all">
+        <table border="1">
+            <tr>
+                <td>頻率 (fc)：</td>
+                <td>
+                    <input id="fc" type="number" value="0.25" />
+                </td>
+            </tr>
+            <tr>
+                <td>振幅 (I)：</td>
+                <td>
+                    <input id="ami" type="number" value="1" />
+                </td>
+            </tr>
+            <tr>
+                <td>振幅 (Q)：</td>
+                <td>
+                    <input id="amq" type="number" value="1" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input id="submit" type="button" value="SUBMIT" />
+                </td>
+            </tr>
+        </table>
+        <!--<textarea id="datasheet" cols="100" rows="10"></textarea>-->
+        <div id="curveitems"></div>
+        <div id="flotcontainer"></div>
+    </div>
+</body>
+</html>

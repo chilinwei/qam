@@ -1,0 +1,18 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#all {
+    width: 900px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#flotcontainer {
+    width: 900px;
+    height: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
